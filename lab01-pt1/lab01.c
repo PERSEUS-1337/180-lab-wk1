@@ -63,7 +63,7 @@ int main()
 	/* Putting 1 to 12 in the 1D array in a sequence */
 	for (int i = 0; i < input * input; i++)
     {
-        if ((i+1)%10 == 0)
+        if ((i+1)%10 == 0 || i == 0)
         {
             matxptr[i] = float_rand(0, 1000);
             // matxptr[i] = i+1;
